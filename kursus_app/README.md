@@ -1,35 +1,31 @@
-# 📱 KursusKu - Aplikasi Katalog Kursus Online
-
-> Tugas Mobile Development ke-2 | GDGoc Unsri  
-> Dibuat oleh: [Nama Kamu]  
-> Tema: **Katalog Kursus Online**
+# KursusKu - Aplikasi Katalog Kursus Online
 
 ---
 
-## 📋 Nama Aplikasi
+## Nama Aplikasi
 
-**KursusKu** — aplikasi mobile untuk menjelajahi dan mengelola katalog kursus online. Data sepenuhnya lokal (hardcoded di Dart), tanpa backend atau API apapun.
+**KursusKu** — aplikasi mobile untuk menjelajahi dan mengelola katalog kursus online. Data lokal (hardcoded di Dart), tanpa backend atau API apapun.
 
 ---
 
-## ✨ Fitur yang Dibuat
+## Fitur yang Dibuat
 
 | Fitur | Keterangan |
 |---|---|
-| 🏠 Halaman Beranda | Daftar semua kursus dalam ListView/GridView responsif |
-| 🔍 Pencarian | Filter kursus berdasarkan judul atau nama instruktur |
-| 🏷️ Filter Kategori | FilterChip per kategori (Mobile Dev, Web Dev, dll) |
-| ❤️ Favorit | Toggle favorit per kursus, badge counter di AppBar |
-| 📄 Halaman Detail | Informasi lengkap kursus, expand/collapse deskripsi |
-| ✏️ Form Tambah/Edit | Form validasi lengkap untuk tambah atau edit kursus |
-| 🌙 Dark Mode | Toggle tema terang/gelap di halaman Pengaturan |
-| 📐 Responsive | 1 kolom (mobile), 2 kolom (tablet), 4 kolom (desktop) |
-| 🔔 PopScope | Konfirmasi keluar jika form belum tersimpan |
-| 🎯 Hero Animation | Animasi transisi banner saat buka halaman detail |
+| Halaman Beranda | Daftar semua kursus dalam ListView/GridView responsif |
+| Pencarian | Filter kursus berdasarkan judul atau nama instruktur |
+| Filter Kategori | FilterChip per kategori (Mobile Dev, Web Dev, dll) |
+| Favorit | Toggle favorit per kursus, badge counter di AppBar |
+| Halaman Detail | Informasi lengkap kursus, expand/collapse deskripsi |
+| Form Tambah/Edit | Form validasi lengkap untuk tambah atau edit kursus |
+| Dark Mode | Toggle tema terang/gelap di halaman Pengaturan |
+| Responsive | 1 kolom (mobile), 2 kolom (tablet), 4 kolom (desktop) |
+| PopScope | Konfirmasi keluar jika form belum tersimpan |
+| Hero Animation | Animasi transisi banner saat buka halaman detail |
 
 ---
 
-## 🗂️ Struktur Halaman
+## Struktur Halaman
 
 ```
 lib/
@@ -54,7 +50,7 @@ lib/
 
 ---
 
-## 🧩 Checklist Fitur Wajib
+## Checklist Fitur Wajib
 
 - [x] `MaterialApp` sebagai root
 - [x] Minimal 4 halaman (Home, Detail, Form, Settings)
@@ -87,7 +83,7 @@ lib/
 
 ---
 
-## 🚀 Cara Menjalankan Project
+## Cara Menjalankan Project
 
 ### Prasyarat
 - Flutter SDK ≥ 3.0.0 sudah terinstall
@@ -98,13 +94,16 @@ lib/
 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/[username]/Second-Mobile-Development-Task-GDGoc-Unsri.git
+git clone https://github.com/YaBoyAri/Second-Mobile-Development-Task-GDGoc-Unsri.git
 cd Second-Mobile-Development-Task-GDGoc-Unsri
 
-# 2. Install dependencies
+# 2 Pindah ke direktori kursus_app
+cd kursus_app
+
+# 3. Install dependencies
 flutter pub get
 
-# 3. Jalankan aplikasi
+# 4. Jalankan aplikasi
 flutter run
 ```
 
@@ -116,14 +115,11 @@ flutter run -d chrome
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 Lihat folder [`screenshots/`](./screenshots/) untuk tampilan aplikasi.
 
 ---
 
-## 🙏 Catatan
-
-Ini adalah proyek tugas untuk belajar Flutter. Semua data kursus bersifat fiktif dan hardcoded di dalam kode Dart. Tidak ada koneksi internet yang dibutuhkan untuk menjalankan aplikasi ini.
-
-Happy Coding! 💜
+## Catatan
+Maaf kalau project ini masih ada yang menggunakan AI karena saya sendiri masih ditahap belajar, jujur mobdev lebih susah dari webdev 😭, juga mengingat 2 minggu ini kita dibantai project2 uas dari kuliah 🙏.
